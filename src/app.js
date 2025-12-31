@@ -7,7 +7,7 @@ app.get("/user", (req, res) => {
     .status(200)
     .json({ success: true, messge: "Successfully retrived user details" });
 });
-
+     
 app.post("/user", (req, res) => {
   res
     .status(201)
